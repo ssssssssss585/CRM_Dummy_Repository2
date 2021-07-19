@@ -8,7 +8,7 @@ if (strlen($_SESSION['vpmsaid']==0)) {
 
 if(isset($_POST['submit']))
   {
-    $parkingnumber=mt_rand(100000000, 999999999);
+    $parkingnumber=mt_rand(900, 999999999);
     $catename=$_POST['catename'];
      $vehcomp=$_POST['vehcomp'];
     $vehreno=$_POST['vehreno'];
